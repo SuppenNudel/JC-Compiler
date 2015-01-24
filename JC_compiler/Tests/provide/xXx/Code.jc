@@ -1,0 +1,9 @@
+!main {
+	!test(0);
+}
+
+!test #int {
+	#someInt = #int;
+	cmd < #int;
+	cmd < #someInt;
+}

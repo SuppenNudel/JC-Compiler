@@ -1,0 +1,4 @@
+!main {
+	#someInt = 42;
+	$someInt;
+}

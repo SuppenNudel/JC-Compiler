@@ -1,0 +1,6 @@
+!main {
+	cmd < true;
+	cmd < 42;
+	#someInt = 1337;
+	cmd < #someInt;
+}

@@ -1,0 +1,12 @@
+!main {
+	!someMethod();
+	!someMethod (43, true);
+}
+
+!someMethod #test $test2 {
+	cmd < 1337;
+}
+
+!someMethod {
+	cmd < 42;
+}

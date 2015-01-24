@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Default suite]">
+  <test name="Default test(failed)">
+    <classes>
+      <class name="dhbw.dev.compiler.CompilerTest">
+        <methods>
+          <include name="deleteTempDir"/>
+          <include name="createTempDir"/>
+          <include name="runningCode_outputsExpectedTest" invocation-numbers="0 1 2 3 4 5 6 7 8 9 10 11 12 13 14"/>
+        </methods>
+      </class> <!-- dhbw.dev.compiler.CompilerTest -->
+    </classes>
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->

@@ -1,0 +1,6 @@
+!main {
+	cmd < "hallo" == "hallo";
+	cmd < "hallo" != "hallo";
+	cmd < "hallo" == "niacht hallo";
+	cmd < "hallo" != "niacht hallo";
+}

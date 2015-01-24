@@ -1,0 +1,6 @@
+!main {
+	%%someDouble = %%~3;
+	cmd < %%someDouble;
+	#someInt = #~3.2;
+	cmd < %%~#someInt;
+}

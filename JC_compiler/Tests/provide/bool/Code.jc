@@ -1,0 +1,5 @@
+!main {
+	$someBool = true;
+	cmd < $someBool;
+	cmd < $someBool!;
+}

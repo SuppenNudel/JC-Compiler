@@ -1,0 +1,5 @@
+!main {
+	§someString = "Hallo Welt";
+	cmd < §someString."!";
+	cmd < §someString.§~1;
+}

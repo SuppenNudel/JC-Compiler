@@ -1,0 +1,25 @@
+!main {
+	if( false ) {
+		cmd < 1;
+	} else {
+		cmd < 2;
+	}
+	if( true ) {
+		cmd < 3;
+	} else {
+		cmd < 4;
+	}
+	if ( true ) {
+		cmd < 5;
+	}
+	if ( false ) {
+		cmd < 6;
+	}
+	if ( true ) {
+		if ( true ) {
+			cmd < 7;
+		} else {
+			cmd < 8;
+		}
+	}
+}

@@ -1,0 +1,12 @@
+!main {
+	cmd < -42;
+	#someInt = 1337;
+	cmd < -#someInt;
+	#someInt = 2;
+	cmd < 3 +#someInt;
+	cmd < 5- #someInt;
+	cmd < 9 %#someInt;
+	cmd < 1337 % 42;
+	cmd < -(2 * 4) / 4 --4;
+	cmd < 2.0^4.0;
+}

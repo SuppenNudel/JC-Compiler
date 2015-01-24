@@ -1,0 +1,13 @@
+!main {
+	cmd < ?#someFunction(22, true);
+	cmd < ?$someFunction(false);
+	cmd < 1337;
+}
+
+?#someFunction #zahl1 $test {
+	return #zahl1+20;
+}
+
+?$someFunction $bool {
+	return true && $bool;
+}

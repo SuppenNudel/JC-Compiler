@@ -1,0 +1,6 @@
+!main {
+	cmd < true == true ;
+	cmd < true == false ;
+	cmd < false == true ;
+	cmd < false == false ;
+}

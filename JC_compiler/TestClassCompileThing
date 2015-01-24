@@ -1,0 +1,82 @@
+.source Tests/provide/calculation/Code.jc
+.class public JCClass
+.super java/lang/Object
+
+.method public static main([Ljava/lang/String;)V
+.limit stack 5
+.limit locals 2
+	getstatic java/lang/System/out Ljava/io/PrintStream;
+	.line 2
+	ldc 42
+	ineg
+	invokevirtual java/io/PrintStream/println(I)V
+	
+	.line 3
+	.line 3
+	ldc 1337
+	istore 1
+	
+	getstatic java/lang/System/out Ljava/io/PrintStream;
+	iload 1
+	ineg
+	invokevirtual java/io/PrintStream/println(I)V
+	
+	.line 5
+	.line 5
+	ldc 2
+	istore 1
+	
+	getstatic java/lang/System/out Ljava/io/PrintStream;
+	.line 6
+	ldc 3
+	iload 1
+	iadd
+	invokevirtual java/io/PrintStream/println(I)V
+	
+	getstatic java/lang/System/out Ljava/io/PrintStream;
+	.line 7
+	ldc 5
+	iload 1
+	isub
+	invokevirtual java/io/PrintStream/println(I)V
+	
+	getstatic java/lang/System/out Ljava/io/PrintStream;
+	.line 8
+	ldc 9
+	iload 1
+	irem
+	invokevirtual java/io/PrintStream/println(I)V
+	
+	getstatic java/lang/System/out Ljava/io/PrintStream;
+	.line 9
+	ldc 1337
+	.line 9
+	ldc 42
+	irem
+	invokevirtual java/io/PrintStream/println(I)V
+	
+	getstatic java/lang/System/out Ljava/io/PrintStream;
+	.line 10
+	ldc 2
+	.line 10
+	ldc 4
+	imul
+	ineg
+	.line 10
+	ldc 4
+	idiv
+	.line 10
+	ldc 4
+	ineg
+	isub
+	invokevirtual java/io/PrintStream/println(I)V
+	
+	getstatic java/lang/System/out Ljava/io/PrintStream;
+	.line 11
+	ldc2_w 2.0
+	.line 11
+	ldc2_w 4.0
+	invokestatic java/lang/Math/pow(DD)D
+	invokevirtual java/io/PrintStream/println(D)V
+	return
+.end method
